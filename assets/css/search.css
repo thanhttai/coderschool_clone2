@@ -146,3 +146,20 @@ svg {
     padding: 16px 0;
     opacity: 0.6;
 }
+.container__mean {
+    font-size: 1.8rem;
+}
+
+.container__mean-desc{
+    color: red;
+}
+
+.container__mean-desc-right{
+    color:rgb(38, 23, 200);
+}
+
+.container__mean-desc-italic{
+    color:rgb(38, 23, 200);
+    font-style: italic;
+    font-weight: 600;
+}
