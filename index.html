@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- <link rel="icon" href="https://bit.ly/3a6NgB1" /> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+        integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="main">
+        <header class="header">
+            <div class="header__left">
+                <a href="" class="header__link">Gmail</a>
+                <a href="" class="header__link">Images</a>
+            </div>
+            <div class="header__right">
+                <i class="fas fa-align-justify nav-link menu__icon"></i>
+                <img class="header__icon"
+                    src="https://lh3.googleusercontent.com/ogw/ADea4I5hxFdBzahA2N1vb5VXnjvALWY4Xai_SdckccJw=s64-c-mo"
+                    alt="">
+            </div>
+        </header>
+        <div class="container">
+            <img src="https://pngimg.com/uploads/google/google_PNG19644.png" alt="google" class="img__google">
+            <div class="search__icon">
+                <a href="#">
+                    <i class="fas fa-search search__icon-size"></i>
+                </a>
+            </div>
+            <input type="text" class="input__search">
+            <img src="https://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png" alt=""
+                class="microphone">
+            <div class="button__search">
+                <button class="button__google" onclick="viewResults()">Google Search</button>
+                <button class="button__google">I'm Feeling Lucky</button>
+            </div>
+            <div class="container__desc">
+                <span class="container__desc-title">Google offered in:
+                    <a href="" class="container__desc-link">Tiếng Việt</a>
+                    <a href="" class="container__desc-link">Français</a>
+                    <a href="" class="container__desc-link">中文（繁體）</a>
+                </span>
+            </div>
+        </div>
+
+        <footer class="footer">
+            <div class="footer__languages">
+                <a href="" class="footer__header">Vietnam</a>
+            </div>
+            <div class="footer__footer">
+                <div class="footer__footer-about">
+                    <a href="" class="footer__footer-link">Advertising </a>
+                    <a href="" class="footer__footer-link">Business </a>
+                    <a href="" class="footer__footer-link">About </a>
+                    <a href="" class="footer__footer-link">How Search Works</a>
+                </div>
+                <div class="footer__footer-policy">
+                    <a href="" class="footer__footer-link">Privacy</a>
+                    <a href="" class="footer__footer-link">Terms</a>
+                    <a href="" class="footer__footer-link">Settings</a>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+
+
+    <script>
+        function viewResults() {
+            window.location.href = "results.html";
+        }
+    </script>
+</body>
+
+</html>
