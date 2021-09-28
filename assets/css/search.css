@@ -101,15 +101,23 @@ input {
     display: flex;
 
 }
-.header__bars,
-.header__setting {
-    padding: 4px 18px;
+.header__bars{
+    padding: 12px 14px;
     font-size: 1.4rem;
+}
+.header__setting {
+    padding: 13px 14px;
+    font-size: 1.4rem;
+}
+.header__bars:hover,
+.header__setting:hover{
+    background-color:#ccc;
+    border-radius: 50%;
 }
 img.header__author-icon {
     position: relative;
     border-radius: 50%;
-    top: -6px;
+    top: 4px;
 }
 .sub-header{
     height:58px;
