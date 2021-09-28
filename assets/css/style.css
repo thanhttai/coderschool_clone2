@@ -101,12 +101,16 @@ html {
 .search__icon {
     position: relative;
     top: 33px;
-    left: -282px;
+    left: -281px;
 }
 .search__icon-size{
     font-size: 1.3rem;
+   
+}
+.search__icon-size{
     color:#000;
 }
+
 .microphone{
     top: -37px;
     width: 24px;
