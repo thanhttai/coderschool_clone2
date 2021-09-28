@@ -6,25 +6,86 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/grid.css">
     <link rel="stylesheet" href="./assets/css/search.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+        integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
     <div class="main">
         <header class="header">
-            <div class="header__search">
-                <div class="header__logo">
-                    <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png" alt=""
-                        class="header__logo-img">
+            <div class="header__container">
+                <div class="header__search">
+                    <div class="header__logo">
+                        <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png"
+                            alt="" class="header__logo-img">
+                    </div>
+                    <div class="input-container">
+                        <input type="text" autofocus="">
+                        <img class="mic"
+                            src="https://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png">
+                        <div class="search"><i class="fas fa-search"></i></div>
+                    </div>
                 </div>
-                <div class="input-container">
-                    <input type="text" autofocus="">
-                    <img class="mic"
-                        src="https://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png">
-                    <div class="search"><i class="fas fa-search"></i></div>
+            </div>
+            <div class="header_right">
+                <div class="header__setting">
+                    <i class="fas fa-cog"></i>
+                </div>
+                <div class="header__bars">
+                    <i class="fas fa-bars"></i>
+                </div>
+                <div class="header__author">
+                    <img src="https://lh3.googleusercontent.com/ogw/ADea4I4Y7yfE4hqT2YpjfBrcC9iEJ-Tfuknn8uUmwueD=s32-c-mo"
+                        alt="" class="header__author-icon">
                 </div>
             </div>
         </header>
+        <div class="sub-header">
+            <div class="grid wide">
+                <div class="col-6 flex">
+                    <div class="sub__title">
+                        <span class="bmaJhd iJddsb" style="height:16px;width:16px"><svg focusable="false"
+                                viewBox="0 0 24 24">
+                                <path fill="#34a853" d="M10 2v2a6 6 0 0 1 6 6h2a8 8 0 0 0-8-8"></path>
+                                <path fill="#ea4335" d="M10 4V2a8 8 0 0 0-8 8h2c0-3.3 2.7-6 6-6"></path>
+                                <path fill="#fbbc04" d="M4 10H2a8 8 0 0 0 8 8v-2c-3.3 0-6-2.69-6-6"></path>
+                                <path fill="#4285f4"
+                                    d="M22 20.59l-5.69-5.69A7.96 7.96 0 0 0 18 10h-2a6 6 0 0 1-6 6v2c1.85 0 3.52-.64 4.88-1.68l5.69 5.69L22 20.59">
+                                </path>
+                            </svg></span>
+                        <span class="all">All</span>
+                    </div>
+                    <div class="sub__header_icon">
+                        <i class="fas fa-image"></i>
+                        <span class="sub__header_icon-title">Images</span>
+                    </div>
+                    <div class="sub__header_icon">
+                        <i class="fab fa-youtube"></i>
+                        <span class="sub__header_icon-title">Images</span>
+                    </div>
+                    <div class="sub__header_icon">
+                        <i class="far fa-newspaper"></i>
+                        <span class="sub__header_icon-title">Images</span>
+                    </div>
+                    <div class="sub__header_icon">
+                        <i class="fas fa-ellipsis-v"></i>
+                        <span class="sub__header_icon-title">Images</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="grid wide">
+                <div class="col-6">
+                    <div class="container__about">
+                        <span class="container__about-desc">About 13,500,000 results (0.78 seconds) </span>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </body>
 
