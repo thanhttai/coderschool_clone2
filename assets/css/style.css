@@ -105,6 +105,7 @@ html {
 }
 .search__icon-size{
     font-size: 1.3rem;
+    color:#000;
 }
 .microphone{
     top: -37px;
