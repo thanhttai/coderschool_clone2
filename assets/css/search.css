@@ -69,3 +69,25 @@ html {
     width:692px;
     height:46px;
 }
+.search {
+    top: 35px;
+    right: 300px;
+    position: relative;
+}
+input {
+    width: 600px;
+    height: 45px;
+    font-size: 20px;
+    box-shadow: none;
+    padding-left: 60px;
+    margin-bottom: 0px;
+    border-radius: 25px;
+    border: 1px solid rgb(223, 223, 223);
+}
+.mic {
+    top: 5px;
+    width: 24px;
+    left: -50px;
+    height: 24px;
+    position: relative;
+}

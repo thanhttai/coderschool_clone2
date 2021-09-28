@@ -97,6 +97,7 @@ html {
     border-radius:30px ;
     outline:none;
     border:1px solid #ddd;
+    padding-left: 80px;
 }
 .search__icon {
     position: relative;
